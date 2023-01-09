@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+  font: inherit;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pl {
+  margin: 80px;
+  margin-left: 40px;
+  padding: 0px;
+  font-weight: bold;
+}
+.css-13p9kmq-heading1-titleStyle {
+  font-size: 54px;
+  line-height: 60px;
+  letter-spacing: -0.56px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-xhtks1-captionStyle {
+  width: 454px;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.GeeksForGeeks {
+  background-image: url(https://brightchamps.com/hashed-images/big-moon-8c1b6d8e7a71cb97f20efa7012ab6c44.svg);
+  display: block;
+  position: absolute;
+  background-size: "cover";
+  background-position: center top;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.captionStyle {
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 454px;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-1bsvc3o-subStyle {
+  color: rgb(67, 96, 253);
+}
+
+.PhoneForm {
+  margin-top: 32px;
+  width: 496px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 6%) 0px 3px 20px 0px;
+  border-radius: 10px;
+  flex-direction: unset;
+  padding: 6px 6px 6px 3px;;
+  font-size: 18px;
+  font-weight: 600
+}
+.buttonStyle {
+  width: auto;
+  height: 40px;
+  padding: 0px 32px;
+  border-radius: 10px;
+  background: rgb(159, 170, 232);
 }
